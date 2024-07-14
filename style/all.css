@@ -101,12 +101,17 @@ body img {
   font-family: inherit;
   text-decoration: none;
   background-color: #fff;
+  color: #000;
   margin-left: auto;
   padding: 12px 24px;
   display: flex;
   align-items: center;
   gap: 4px;
   border-radius: 32px;
+  transition: all 0.5s;
+}
+.banner-desc-btn:hover {
+  transform: scale(1.05);
 }
 
 .intro {
@@ -219,6 +224,10 @@ body img {
   padding: 12px 24px;
   display: flex;
   gap: 4px;
+  transition: all 0.5s;
+}
+.projects-content-right-up-content-btn:hover {
+  transform: scale(1.05);
 }
 .projects-content-right-down {
   display: flex;
